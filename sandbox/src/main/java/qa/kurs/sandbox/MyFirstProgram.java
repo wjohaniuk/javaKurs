@@ -1,4 +1,7 @@
-public class MyFirstProgram{
+package qa.kurs.sandbox;
+
+public class MyFirstProgram
+{
 
 	public static void main(String[] args){
 
