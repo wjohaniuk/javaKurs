@@ -1,4 +1,4 @@
-package qa.kurs.adressbook;
+package qa.kurs.adressbook.tests;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.*;
+import qa.kurs.adressbook.model.ContactData;
 
 public class ContactCreatingTest {
     FirefoxDriver wd;
