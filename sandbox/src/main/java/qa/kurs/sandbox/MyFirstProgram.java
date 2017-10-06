@@ -12,7 +12,7 @@ public class MyFirstProgram {
     Point p2 = new Point(6, 6);
 
     System.out.println("Distance between points x(" + p1.x + "," + p2.x + ") " +
-            "and y(" + p1.y + "," + p2.y + ") is " + p1.distance(p1, p2));
+            "and y(" + p1.y + "," + p2.y + ") is " + p1.distance(p2));
   }
 
 

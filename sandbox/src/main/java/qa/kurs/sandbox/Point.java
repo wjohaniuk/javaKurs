@@ -12,7 +12,7 @@ public class Point {
   public int x;
   public int y;
 
-  public double distance(Point p1, Point p2) {
-    return sqrt((p2.x - p1.x) ^ 2 + (p2.y - p1.y) ^ 2);
+  public double distance(Point p2) {
+    return sqrt((p2.x - this.x) ^ 2 + (p2.y - this.y) ^ 2);
   }
 }
