@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-tests1.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-tests1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-tests1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-tests1_main.iml" group="adressbook-tests1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-tests1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-tests1_test.iml" group="adressbook-tests1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-tests_main.iml" group="adressbook-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-tests_test.iml" group="adressbook-tests" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox_main.iml" group="sandbox" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox_test.iml" group="sandbox" />
     </modules>
