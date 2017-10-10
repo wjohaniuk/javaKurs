@@ -36,8 +36,8 @@ public class ContactHelper extends HelperBase {
         wd.switchTo().alert().accept();
     }
 
-    public void initCotactModification() {
-        click(By.xpath("//a[@href='edit.php?id=1']"));
+    public void initContactModification() {
+        click(By.xpath("//tr[@name='entry'][1]//td[@class='center'][3]"));
     }
 
     public void submitContactModification() {
