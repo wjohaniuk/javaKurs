@@ -1,6 +1,7 @@
 package qa.kurs.adressbook.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import qa.kurs.adressbook.model.ContactData;
 
@@ -8,7 +9,7 @@ public class ContactHelper extends HelperBase {
 
     protected GroupHelper groupHelper;
 
-    public ContactHelper(FirefoxDriver wd) {
+    public ContactHelper(WebDriver wd) {
         super(wd);
     }
 
