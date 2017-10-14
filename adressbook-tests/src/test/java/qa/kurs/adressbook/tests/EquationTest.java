@@ -1,7 +1,7 @@
 package qa.kurs.adressbook.tests;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import qa.kurs.adressbook.appmanager.Equation;
 
 public class EquationTest {
