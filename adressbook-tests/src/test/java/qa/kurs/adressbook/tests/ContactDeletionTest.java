@@ -13,8 +13,8 @@ public class ContactDeletionTest extends TestBase{
             app.getNavigationHelper().gotoCreateContact();
             app.getContactHelper().createContact(new ContactData("testowy", "tester",
                     "test", null, "test", "test1"), true);
-            app.getNavigationHelper().gotoCreateContact();
         }
+        app.getNavigationHelper().goToContactPage();
         app.getContactHelper().selectContact();
         app.getContactHelper().deleteContact();
         app.getContactHelper().alertAccept();

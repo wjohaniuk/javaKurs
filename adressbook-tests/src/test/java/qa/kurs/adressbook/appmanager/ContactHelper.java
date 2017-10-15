@@ -46,7 +46,7 @@ public class ContactHelper extends HelperBase {
   }
 
   public void initContactModification() {
-    click(By.name("selected[]"));
+    click(By.xpath("//tr[@name='entry'][1]//td[@class='center'][3]"));
   }
 
   public void submitContactModification() {
