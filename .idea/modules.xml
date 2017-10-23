@@ -8,8 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-tests1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-tests1_test.iml" group="adressbook-tests1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-tests_main.iml" group="adressbook-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/adressbook-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/adressbook-tests_test.iml" group="adressbook-tests" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox_main.iml" group="sandbox" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox_test.iml" group="sandbox" />
     </modules>
   </component>
 </project>
