@@ -37,16 +37,21 @@ public class ContactHelper extends HelperBase {
     click(By.xpath("//div[@id='content']/form[2]/div[2]/input"));
   }
 
-  public void selectContact() {
-    click(By.name("selected[]"));
+  public void selectContact(int index) {
+    wd.findElements(By.name("selected[]")).get(index).click();
   }
 
   public void alertAccept() {
     wd.switchTo().alert().accept();
   }
 
-  public void initContactModification() {
-    click(By.xpath("//tr[@name='entry'][1]//td[@class='center'][3]"));
+  public void selectGroup(int index) {
+    wd.findElements(By.name("selected[]")).get(index).click();
+  }
+
+  public void initContactModification(int index) {
+    wd.findElements(By.xpath("//tr[@name='entry']//td[@class='center'][3]")).get(index).click();
+
   }
 
   public void submitContactModification() {
