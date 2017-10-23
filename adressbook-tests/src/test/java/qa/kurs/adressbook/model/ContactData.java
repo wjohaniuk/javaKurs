@@ -1,6 +1,7 @@
 package qa.kurs.adressbook.model;
 
 public class ContactData {
+  private final String id;
   private final String firstName;
   private final String middleName;
   private final String lastName;
@@ -9,12 +10,27 @@ public class ContactData {
   private String group;
 
   public ContactData(String firstName, String middleName, String lastName, String nickName, String company, String group) {
+    this.id = null;
     this.firstName = firstName;
     this.middleName = middleName;
     this.lastName = lastName;
     this.nickName = nickName;
     this.company = company;
     this.group = group;
+  }
+
+  public ContactData(String id, String firstName, String middleName, String lastName, String nickName, String company, String group) {
+    this.id = id;
+    this.firstName = firstName;
+    this.middleName = middleName;
+    this.lastName = lastName;
+    this.nickName = nickName;
+    this.company = company;
+    this.group = group;
+  }
+
+  public String getId() {
+    return id;
   }
 
   public String getFirstName() {
@@ -44,7 +60,8 @@ public class ContactData {
   @Override
   public String toString() {
     return "ContactData{" +
-            "firstName='" + firstName + '\'' +
+            "id='" + id + '\'' +
+            ", firstName='" + firstName + '\'' +
             ", lastName='" + lastName + '\'' +
             '}';
   }
@@ -56,13 +73,15 @@ public class ContactData {
 
     ContactData that = (ContactData) o;
 
+    if (id != null ? !id.equals(that.id) : that.id != null) return false;
     if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null) return false;
     return lastName != null ? lastName.equals(that.lastName) : that.lastName == null;
   }
 
   @Override
   public int hashCode() {
-    int result = firstName != null ? firstName.hashCode() : 0;
+    int result = id != null ? id.hashCode() : 0;
+    result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
     result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
     return result;
   }
