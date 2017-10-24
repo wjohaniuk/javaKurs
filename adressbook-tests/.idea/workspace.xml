@@ -22,7 +22,7 @@
       <file leaf-file-name="GroupData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/GroupData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="136">
               <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding />
             </state>
@@ -32,7 +32,7 @@
       <file leaf-file-name="ContactData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/ContactData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
+            <state relative-caret-position="464">
               <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
               <folding />
             </state>
@@ -42,7 +42,7 @@
       <file leaf-file-name="GroupHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/appmanager/GroupHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
+            <state relative-caret-position="663">
               <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
@@ -62,8 +62,8 @@
       <file leaf-file-name="ContactEditionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactEditionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="166">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +74,9 @@
       <file leaf-file-name="Invoker.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="737" column="5" lean-forward="true" selection-start-line="737" selection-start-column="5" selection-end-line="737" selection-end-column="5" />
-              <folding>
-                <element signature="e#27713#27726#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="11679">
+              <caret line="737" column="5" lean-forward="false" selection-start-line="737" selection-start-column="5" selection-end-line="737" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +84,8 @@
       <file leaf-file-name="ContactHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/appmanager/ContactHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="84" column="58" lean-forward="false" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
+            <state relative-caret-position="362">
+              <caret line="92" column="3" lean-forward="true" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
               <folding>
                 <element signature="e#2153#2166#0" expanded="true" />
               </folding>
@@ -435,10 +433,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -807,34 +805,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactEditionTest - 2017.10.24 at 11h 40m 49s.xml">
+    <history-entry file="ContactEditionTest - 2017.10.24 at 18h 43m 20s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 11h 56m 15s.xml">
+    <history-entry file="ContactEditionTest - 2017.10.24 at 18h 44m 13s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 11h 56m 58s.xml">
+    <history-entry file="ContactEditionTest - 2017.10.24 at 18h 45m 02s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 13h 04m 15s.xml">
+    <history-entry file="ContactEditionTest - 2017.10.24 at 18h 49m 40s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 13h 05m 04s.xml">
+    <history-entry file="ContactEditionTest - 2017.10.24 at 18h 54m 42s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 13h 05m 23s.xml">
+    <history-entry file="ContactEditionTest - 2017.10.24 at 19h 47m 17s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 13h 06m 08s.xml">
+    <history-entry file="ContactEditionTest - 2017.10.24 at 20h 15m 43s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 13h 06m 30s.xml">
+    <history-entry file="ContactEditionTest - 2017.10.24 at 20h 42m 00s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 13h 07m 44s.xml">
+    <history-entry file="ContactEditionTest - 2017.10.24 at 20h 44m 44s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 13h 09m 18s.xml">
+    <history-entry file="ContactEditionTest - 2017.10.24 at 20h 47m 17s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -844,13 +842,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4270724" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4270724" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1223,23 +1221,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="136">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/ContactData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/appmanager/GroupHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
+        <state relative-caret-position="663">
           <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
@@ -1257,18 +1247,24 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="737" column="5" lean-forward="true" selection-start-line="737" selection-start-column="5" selection-end-line="737" selection-end-column="5" />
-          <folding>
-            <element signature="e#27713#27726#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="11679">
+          <caret line="737" column="5" lean-forward="false" selection-start-line="737" selection-start-column="5" selection-end-line="737" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/ContactData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactEditionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="166">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1277,8 +1273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/appmanager/ContactHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="84" column="58" lean-forward="false" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
+        <state relative-caret-position="362">
+          <caret line="92" column="3" lean-forward="true" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
           <folding>
             <element signature="e#2153#2166#0" expanded="true" />
           </folding>
