@@ -22,10 +22,13 @@
       <file leaf-file-name="GroupData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/GroupData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="651">
+              <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
               <folding>
-                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,11 +37,11 @@
       <file leaf-file-name="ContactData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/ContactData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="73" column="35" lean-forward="false" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
               <folding>
-                <element signature="e#1566#1567#0" expanded="true" />
-                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1582#1583#0" expanded="true" />
+                <element signature="e#1604#1605#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,6 +53,28 @@
             <state relative-caret-position="684">
               <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupModificationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/GroupModificationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactEditionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactEditionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="39" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupCreatingTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GroupCreatingTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/GroupCreatingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="103" />
+            <state relative-caret-position="425">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactCreatingTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactCreatingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactCreatingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="328">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -396,13 +421,13 @@
         <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/GroupDeletionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactDeletionTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/GroupModificationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactEditionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/appmanager/GroupHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/GroupData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/ContactData.java" />
         <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/appmanager/ContactHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/GroupCreatingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/GroupModificationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactEditionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/ContactData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/GroupData.java" />
         <option value="$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactCreatingTest.java" />
       </list>
     </option>
@@ -809,17 +834,8 @@
     <history-entry file="ContactCreatingTest - 2017.10.25 at 11h 48m 19s.xml">
       <configuration name="ContactCreatingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 18h 54m 42s.xml">
-      <configuration name="ContactEditionTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 19h 47m 17s.xml">
-      <configuration name="ContactEditionTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 20h 15m 43s.xml">
-      <configuration name="ContactEditionTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactEditionTest - 2017.10.24 at 20h 42m 00s.xml">
-      <configuration name="ContactEditionTest" configurationId="TestNG" />
+    <history-entry file="ContactCreatingTest - 2017.10.25 at 12h 09m 09s.xml">
+      <configuration name="ContactCreatingTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ContactEditionTest - 2017.10.24 at 20h 44m 44s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
@@ -827,11 +843,20 @@
     <history-entry file="ContactEditionTest - 2017.10.24 at 20h 47m 17s.xml">
       <configuration name="ContactEditionTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ContactEditionTest - 2017.10.25 at 11h 59m 51s.xml">
+      <configuration name="ContactEditionTest" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="GroupCreatingTest - 2017.10.25 at 11h 22m 20s.xml">
       <configuration name="GroupCreatingTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="GroupCreatingTest - 2017.10.25 at 11h 46m 04s.xml">
       <configuration name="GroupCreatingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreatingTest - 2017.10.25 at 12h 08m 21s.xml">
+      <configuration name="GroupCreatingTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupModificationTest - 2017.10.25 at 11h 57m 34s.xml">
+      <configuration name="GroupModificationTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -846,7 +871,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4270724" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4270724" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1207,24 +1232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactEditionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/GroupModificationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/appmanager/GroupHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -1233,24 +1240,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/GroupData.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding>
-            <element signature="e#911#912#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/ContactData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1588#1589#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="173">
+          <caret line="108" column="17" lean-forward="false" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,18 +1258,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Comparator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/ContactData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="108" column="17" lean-forward="false" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        <state relative-caret-position="396">
+          <caret line="73" column="35" lean-forward="false" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+          <folding>
+            <element signature="e#1582#1583#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/model/GroupData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+          <folding>
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/GroupModificationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/GroupCreatingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactEditionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="103" />
+        <state relative-caret-position="328">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="39" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1284,9 +1302,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/ContactCreatingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="328">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/qa/kurs/adressbook/tests/GroupCreatingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
