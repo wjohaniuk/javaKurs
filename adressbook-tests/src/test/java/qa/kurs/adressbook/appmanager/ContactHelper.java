@@ -49,6 +49,10 @@ public class ContactHelper extends HelperBase {
     wd.switchTo().alert().accept();
   }
 
+  public void returnToContactPage() {
+    click(By.linkText("home"));
+  }
+
   public void selectGroup(int index) {
     wd.findElements(By.name("selected[]")).get(index).click();
   }
@@ -69,6 +73,20 @@ public class ContactHelper extends HelperBase {
     submitContact();
   }
 
+  public void modify(int index, ContactData contact) {
+    initContactModification(index);
+    fillContactForm(contact, false);
+    submitContactModification();
+    returnToContactPage();
+  }
+
+  public void delete(int index) {
+    selectContact(index);
+    deleteContact();
+    alertAccept();
+    returnToContactPage();
+  }
+
   public boolean isThereContact() {
     return isElementPresent(By.name("selected[]"));
   }
@@ -77,17 +95,15 @@ public class ContactHelper extends HelperBase {
     return wd.findElements(By.name("selected[]")).size();
   }
 
-  public List<ContactData> getContactList() {
+  public List<ContactData> list() {
     List<ContactData> contacts = new ArrayList<ContactData>();
     List<WebElement> elements = wd.findElements(By.xpath(".//tr[@name='entry']"));
 
-    for (WebElement element : elements){
+    for (WebElement element : elements) {
       String firstName = element.findElement(By.xpath(".//td[3]")).getText();
       String lastName = element.findElement(By.xpath(".//td[2]")).getText();
       int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      ContactData contact = new ContactData(id, firstName, null, lastName, null, null, null
-      );
-      contacts.add(contact);
+      contacts.add(new ContactData().withId(id).withFirstName(firstName).withLastName(lastName));
     }
     return contacts;
   }
