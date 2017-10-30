@@ -15,7 +15,7 @@ public class ContactEditionTest extends TestBase {
     if (app.group().list().size() == 0) {
       app.goTo().createContact();
       app.contact().createContact(new ContactData().withFirstName("testowy1").withMiddleName("tester")
-              .withLastName("test2").withNickName("test").withCompany("test1"), true);
+              .withLastName("test2").withNickName("test").withCompany("test1").withGroup("test1"), true);
     }
   }
 
@@ -25,7 +25,7 @@ public class ContactEditionTest extends TestBase {
     List<ContactData> before = app.contact().list();
     int index = before.size() - 1;
     ContactData contact = new ContactData().withId(before.get(index).getId()).withFirstName("testowy1").withMiddleName("tester")
-            .withLastName("test2");
+            .withLastName("test2").withGroup("test1");
     app.contact().modify(index, contact);
     List<ContactData> after = app.contact().list();
     Assert.assertEquals(after.size(), before.size());
