@@ -2,7 +2,6 @@ package qa.kurs.adressbook.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SessionHelper extends HelperBase{
 

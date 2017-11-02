@@ -8,6 +8,9 @@ public class ContactData {
   private  String nickName;
   private  String company;
   private  String group;
+  private String homePhone;
+  private String mobilePhone;
+  private String workPhone;
 
 
   public int getId() {
@@ -38,6 +41,14 @@ public class ContactData {
     return group;
   }
 
+  public String getHomePhone(){ return homePhone;}
+
+  public String getMobilePhone() {return mobilePhone;}
+
+  public String getWorkPhone() {
+    return workPhone;
+  }
+
   @Override
   public String toString() {
     return "ContactData{" +
@@ -49,6 +60,18 @@ public class ContactData {
 
   public ContactData withId(int id) {
     this.id = id;
+    return this;
+  }
+  public ContactData withHomePhone(String home) {
+    this.homePhone = home;
+    return this;
+  }
+  public ContactData withMobilePhone(String mobile) {
+    this.mobilePhone = mobile;
+    return this;
+  }
+  public ContactData withWorkPhone(String work) {
+    this.workPhone = work;
     return this;
   }
 
@@ -101,4 +124,5 @@ public class ContactData {
     result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
     return result;
   }
+
 }
