@@ -19,8 +19,9 @@ public class ContactCreatingTest extends TestBase {
         app.contact().fillContactForm(contact, true);
         app.contact().submitContact();
         app.goTo().contactPage();
+        assertThat(app.contact().Count(), equalTo(before.size() + 1));
         Contacts after = app.contact().all();
-        assertThat(after.size(), equalTo(before.size() + 1));
+
 
 
         assertThat(after, equalTo(
