@@ -29,4 +29,11 @@ public class NavigationHelper extends HelperBase {
     }
     click(By.linkText("home"));
   }
+
+  public void detailsPage() {
+    if (isElementPresent(By.name("print"))) {
+      return;
+    }
+    click(By.linkText("home"));
+  }
 }

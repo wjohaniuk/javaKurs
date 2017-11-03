@@ -7,6 +7,7 @@ public class ContactData {
     private String lastName;
     private String nickName;
     private String company;
+    private String title;
     private String group;
     private String homePhone;
     private String mobilePhone;
@@ -17,7 +18,25 @@ public class ContactData {
     private String email2;
     private String email3;
     private String personalAddress;
+    private String detailsPage;
 
+    public String getTitle() {
+        return title;
+    }
+
+    public ContactData withTitle(String title) {
+        this.title = title;
+        return this;
+    }
+
+    public String getDetailsPage() {
+        return detailsPage;
+    }
+
+    public ContactData withDetailsPage(String detailsPage) {
+        this.detailsPage = detailsPage;
+        return this;
+    }
 
     public int getId() {
         return id;

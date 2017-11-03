@@ -8,6 +8,9 @@ import qa.kurs.adressbook.model.ContactData;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.MatcherAssert.*;
+
 public class ContactEmailTests extends TestBase{
     @Test
     private void testContactEmail(){
@@ -15,7 +18,7 @@ public class ContactEmailTests extends TestBase{
         ContactData contact = app.contact().all().iterator().next();
         ContactData contactInfoFromEditForm = app.contact().infoFromEditForm(contact);
 
-        MatcherAssert.assertThat(contact.getAllEmails(), CoreMatchers.equalTo(mergeEmails(contactInfoFromEditForm)));
+        assertThat(contact.getAllEmails(), equalTo(mergeEmails(contactInfoFromEditForm)));
     }
 
     private String mergeEmails(ContactData contact) {
@@ -25,7 +28,7 @@ public class ContactEmailTests extends TestBase{
                 .collect(Collectors.joining("\n"));
     }
 
-    public static String cleaned(String phone) {
+     public static String cleaned(String phone) {
         return phone.replaceAll("\\s","").replaceAll("[-()]","");
     }
 }
