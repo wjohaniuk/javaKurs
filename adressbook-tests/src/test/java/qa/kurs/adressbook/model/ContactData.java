@@ -16,6 +16,7 @@ public class ContactData {
     private String email1;
     private String email2;
     private String email3;
+    private String personalAddress;
 
 
     public int getId() {
@@ -180,6 +181,15 @@ public class ContactData {
 
     public ContactData withEmail3(String email3) {
         this.email3 = email3;
+        return this;
+    }
+
+    public String getPersonalAddress() {
+        return personalAddress;
+    }
+
+    public ContactData withPersonalAddress(String personalAddress) {
+        this.personalAddress = personalAddress;
         return this;
     }
 }
