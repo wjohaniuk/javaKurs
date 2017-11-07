@@ -1,0 +1,26 @@
+<list>
+  <contact>
+    <firstName>Imie 0</firstName>
+    <middleName>Drugie imie 0</middleName>
+    <lastName>Nazwisko 0</lastName>
+    <group>test 0</group>
+  </contact>
+  <contact>
+    <firstName>Imie 1</firstName>
+    <middleName>Drugie imie 1</middleName>
+    <lastName>Nazwisko 1</lastName>
+    <group>test 1</group>
+  </contact>
+  <contact>
+    <firstName>Imie 2</firstName>
+    <middleName>Drugie imie 2</middleName>
+    <lastName>Nazwisko 2</lastName>
+    <group>test 2</group>
+  </contact>
+  <contact>
+    <firstName>Imie 3</firstName>
+    <middleName>Drugie imie 3</middleName>
+    <lastName>Nazwisko 3</lastName>
+    <group>test 3</group>
+  </contact>
+</list>
