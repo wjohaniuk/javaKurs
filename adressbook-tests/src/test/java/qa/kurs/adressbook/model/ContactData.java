@@ -1,5 +1,7 @@
 package qa.kurs.adressbook.model;
 
+import java.io.File;
+
 public class ContactData {
     private int id = Integer.MAX_VALUE;
     private String firstName;
@@ -19,6 +21,7 @@ public class ContactData {
     private String email3;
     private String personalAddress;
     private String detailsPage;
+    private File photo;
 
     public String getTitle() {
         return title;
@@ -209,6 +212,15 @@ public class ContactData {
 
     public ContactData withPersonalAddress(String personalAddress) {
         this.personalAddress = personalAddress;
+        return this;
+    }
+
+    public File getPhoto() {
+        return photo;
+    }
+
+    public ContactData withPhoto(File photo) {
+        this.photo = photo;
         return this;
     }
 }

@@ -28,9 +28,10 @@ public class ContactHelper extends HelperBase {
         type(By.name("lastname"), contactData.getLastName());
         type(By.name("nickname"), contactData.getNickName());
         type(By.name("company"), contactData.getCompany());
+        attach(By.name("photo"), contactData.getPhoto());
 
         if (creation) {
-            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+         new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
         } else {
             Assert.assertFalse(isElementPresent(By.name("new_group")));
         }
@@ -57,8 +58,8 @@ public class ContactHelper extends HelperBase {
         click(By.linkText("home"));
     }
 
-    public void detailsPage(){
-        wd.findElement(By.xpath(".//*[@id='1']//parent::td//parent::tr/td[7]//img")).click();
+    public void detailsPage(int id) {
+        wd.findElement(By.xpath(".//*[@id='" + id + "']//parent::td//parent::tr/td[7]//img")).click();
     }
 
     private void initContactModificationById(int id) {
@@ -108,10 +109,9 @@ public class ContactHelper extends HelperBase {
             String lastName = row.findElement(By.xpath(".//td[2]")).getText();
             String allPhones = cells.get(5).getText();
             String allEmails = cells.get(4).getText();
-            String detailsPage = row.findElement(By.xpath(".//*[@id='content']")).getText();
             String personalAddress = row.findElement(By.xpath(".//td[4]")).getText();
             int id = Integer.parseInt(row.findElement(By.tagName("input")).getAttribute("value"));
-            contacts.add(new ContactData().withId(id).withFirstName(firstName).withLastName(lastName).withDetailsPage(detailsPage).
+            contacts.add(new ContactData().withId(id).withFirstName(firstName).withLastName(lastName).
                     withAllPhones(allPhones).withAllEmails(allEmails).withPersonalAddress(personalAddress));
         }
         return contacts;

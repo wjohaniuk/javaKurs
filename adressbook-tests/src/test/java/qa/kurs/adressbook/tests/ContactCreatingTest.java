@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 import qa.kurs.adressbook.model.ContactData;
 import qa.kurs.adressbook.model.Contacts;
 
+import java.io.File;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -14,7 +16,8 @@ public class ContactCreatingTest extends TestBase {
     public void testContactCreation() {
 
         Contacts before = app.contact().all();
-        ContactData contact = new ContactData().withFirstName("testowy1").withLastName("test1").withGroup("test1");
+        File photo =  new File("src/test/resources/orzel_grafika.jpg");
+        ContactData contact = new ContactData().withFirstName("testowy1").withLastName("test1").withPhoto(photo).withGroup("test1");
         app.goTo().createContact();
         app.contact().fillContactForm(contact, true);
         app.contact().submitContact();
@@ -28,6 +31,4 @@ public class ContactCreatingTest extends TestBase {
                 before.withAdded(contact.withId(after.stream().mapToInt((g) -> g.getId()).max().getAsInt()))));
 
     }
-
-
 }
