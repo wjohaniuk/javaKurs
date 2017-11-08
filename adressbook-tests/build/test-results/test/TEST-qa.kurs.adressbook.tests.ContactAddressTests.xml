@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="qa.kurs.adressbook.tests.ContactAddressTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-08T07:56:19" hostname="DESKTOP-28P1P5D" time="3.533">
+  <properties/>
+  <testcase name="testContactAddress" classname="qa.kurs.adressbook.tests.ContactAddressTests" time="3.533"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
