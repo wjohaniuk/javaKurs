@@ -58,8 +58,8 @@ public class ContactHelper extends HelperBase {
         click(By.linkText("home"));
     }
 
-    public void detailsPage(int id) {
-        wd.findElement(By.xpath(".//*[@id='" + id + "']//parent::td//parent::tr/td[7]//img")).click();
+    public void detailsPageById(int id) {
+        wd.findElement(By.cssSelector(String.format("a[href='view.php?id=%s']", id))).click();
     }
 
     private void initContactModificationById(int id) {
@@ -139,5 +139,11 @@ public class ContactHelper extends HelperBase {
                 .withNickName(nickname).withCompany(company).withTitle(title)
                 .withHomePhone(home).withMobilePhone(mobile).withWorkPhone(work).withEmail1(email).withEmail2(email2)
                 .withEmail3(email3).withPersonalAddress(personalAddress);
+    }
+    public String infoFromDetailForm(ContactData address){
+        detailsPageById(address.getId());
+        String detail = wd.findElement(By.xpath(".//*[@id='content']")).getText();
+        wd.navigate().back();
+        return detail;
     }
 }
