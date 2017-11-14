@@ -36,6 +36,7 @@
 
         <!-- Names the annotated entity class -->
         <mapping class="qa.kurs.adressbook.model.GroupData"/>
+        <mapping class="qa.kurs.adressbook.model.ContactData"/>
 
     </session-factory>
 
