@@ -63,7 +63,7 @@ public class ContactHelper extends HelperBase {
     }
 
     private void initContactModificationById(int id) {
-        wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
+        wd.findElement(By.xpath(".//*[@id='" + id + "']//parent::td//parent::tr/td[8]//img")).click();
     }
 
     public void submitContactModification() {

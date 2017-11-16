@@ -66,6 +66,7 @@ public class ContactData {
     @Column(name = "photo")
     private String photo;
 
+
     public String getTitle() {
         return title;
     }
