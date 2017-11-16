@@ -31,7 +31,7 @@ public class ContactHelper extends HelperBase {
         attach(By.name("photo"), contactData.getPhoto());
 
         if (creation) {
-         new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
         } else {
             Assert.assertFalse(isElementPresent(By.name("new_group")));
         }
@@ -63,7 +63,7 @@ public class ContactHelper extends HelperBase {
     }
 
     private void initContactModificationById(int id) {
-        wd.findElement(By.xpath(".//*[@id='" + id + "']//parent::td//parent::tr/td[8]//img")).click();
+        wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
     }
 
     public void submitContactModification() {
@@ -79,7 +79,7 @@ public class ContactHelper extends HelperBase {
 
     public void modify(ContactData contact) {
         initContactModificationById(contact.getId());
-        fillContactForm(contact, false);
+        fillContactForm(contact, true);
         submitContactModification();
         returnToContactPage();
     }
@@ -140,7 +140,8 @@ public class ContactHelper extends HelperBase {
                 .withHomePhone(home).withMobilePhone(mobile).withWorkPhone(work).withEmail1(email).withEmail2(email2)
                 .withEmail3(email3).withPersonalAddress(personalAddress);
     }
-    public String infoFromDetailForm(ContactData address){
+
+    public String infoFromDetailForm(ContactData address) {
         detailsPageById(address.getId());
         String detail = wd.findElement(By.xpath(".//*[@id='content']")).getText();
         wd.navigate().back();

@@ -57,7 +57,7 @@ public class ContactCreatingTest extends TestBase {
     @Test(dataProvider = "validContactsFromJson")
     public void testContactCreation(ContactData contact) {
 
-        Contacts before = app.contact().all();
+        Contacts before = app.db().contacts();
         File photo = new File("src/test/resources/orzel_grafika.jpg");
 
         app.goTo().createContact();
@@ -65,7 +65,7 @@ public class ContactCreatingTest extends TestBase {
         app.contact().submitContact();
         app.goTo().contactPage();
         assertThat(app.contact().Count(), equalTo(before.size() + 1));
-        Contacts after = app.contact().all();
+        Contacts after = app.db().contacts();
 
 
         assertThat(after, equalTo(

@@ -7,6 +7,7 @@ import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.io.File;
+
 @Entity
 @Table(name = "addressbook")
 
@@ -35,33 +36,33 @@ public class ContactData {
     @Expose
     @Transient
     private String group;
-    @Type(type="text")
+    @Type(type = "text")
     @Column(name = "home")
     private String homePhone;
     @Column(name = "mobile")
-    @Type(type="text")
+    @Type(type = "text")
     private String mobilePhone;
     @Column(name = "work")
-    @Type(type="text")
+    @Type(type = "text")
     private String workPhone;
     @Transient
     private String allPhones;
     @Transient
     private String allEmails;
-    @Type(type="text")
+    @Type(type = "text")
     @Column(name = "email")
     private String email1;
-    @Type(type="text")
+    @Type(type = "text")
     @Column(name = "email2")
     private String email2;
-    @Type(type="text")
+    @Type(type = "text")
     @Column(name = "email3")
     private String email3;
     @Transient
     private String personalAddress;
     @Transient
     private String detailsPage;
-    @Type(type="text")
+    @Type(type = "text")
     @Column(name = "photo")
     private String photo;
 
@@ -258,7 +259,11 @@ public class ContactData {
     }
 
     public File getPhoto() {
-        return new File(photo);
+        if (photo == null) {
+            return null;
+        } else {
+            return new File(photo);
+        }
     }
 
     public ContactData withPhoto(File photo) {
